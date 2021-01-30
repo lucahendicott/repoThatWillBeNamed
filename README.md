@@ -25,7 +25,7 @@
   *  APIs, HTML, CSS, Node, JavaScript, MySQL, Sequelize, Express, and other npm dependencies
 
   ## Installation
-  To run this app, you must have installed...
+  App runs as is in the browser. No installs or downloads necessary.
 
   ## License
   [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)  This project is licensed under the terms of the MIT license.
