@@ -28,6 +28,8 @@
   Once songs are in the current playlist. Users can click the songs there to delete them from the playlist and the DB. This calls the delete songs api from the back end, also using a remove parent node on the front end js to remove the element from the page as well. 
 
   Once a playlist or multiple is saved, the user can click on "saved playlists" this will populate the saved playlists in the DB to the page as buttons. Each playlist can be clicked to reveal the songs inside. Those songs are buttons as well, when they are click they are deleted from the DB, but the remove parent node on the front end to remove the button is buggy. Still working on getting those removed from the screen when clicked
+  
+  ![usage-gif](public/assets/images/mistape-usage.gif)
 
 
   ## Installation
