@@ -38,7 +38,7 @@
 Here is the route to update a playlist name by grabbing the i.d.
 ![update-route](public/assets/images/update-route.png)
 
-the route was tested in postman. The original name was "Pizza Party", and the test was run to change it to "cool party dude!"
+the route was tested in postman. The original name was "Pizza Party", and the test was run to change it to "cool party dude!"<br>
 ![postman-test](public/assets/images/unnamed.png)
 
 Once the put method was sent. We can see the playlist name was changed in the database.
