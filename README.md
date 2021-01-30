@@ -29,7 +29,11 @@
 
   Once a playlist or multiple is saved, the user can click on "saved playlists" this will populate the saved playlists in the DB to the page as buttons. Each playlist can be clicked to reveal the songs inside. Those songs are buttons as well, when they are click they are deleted from the DB, but the remove parent node on the front end to remove the button is buggy. Still working on getting those removed from the screen when clicked
   
+  Usage Demo
+  
   ![usage-gif](public/assets/images/mistape-usage.gif)
+
+
 
 Here is the route to update a playlist name by grabbing the i.d.
 ![update-route](public/assets/images/update-route.png)
