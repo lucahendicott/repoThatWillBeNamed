@@ -21,14 +21,30 @@
   As A music lover, I WANT to access my favorite music SO THAT I can save it to awesome playlists that I can listen to.
 
   ## Technologies & Usage
-  *  Third party API, HTML, CSS, Node, JavaScript, MySQL, Sequelize, Express, and other npm dependencies. There are various back end api routes that connect end points for creating, updating and deleting playlists and songs. All these end points were tested through postman and functioning properly. The updating a playlist name function wasn't quite implemented on the front end. Definietely working on that for future develpmonet.
+  *  Third party API, HTML, CSS, Node, JavaScript, MySQL, Sequelize, Express, and other npm dependencies. There are various back end api routes that connect end points for creating, updating and deleting playlists and songs. All these end points were tested through postman and functioning properly. The updating a playlist name function wasn't quite implemented on the front end. working on that for future develpmonet. See below the usage video here for code snippet details on testing the update method.
 
   All of the front end functionality is in app.js under the public folder. We have various functions fetching the api's from the back end. When the user types a playlist name and clicks "create". That fetches the create playlist api from the back. When a User enters a keyword and clicks "search", that generates search results from napsters music API. Each result returns as a button that can be clicked to save to your playlist. When the songs are clicks that calls the create songs api from the back end and stores the song into the DB with a PlaylistID that matches the playlist it was saved to. 
 
   Once songs are in the current playlist. Users can click the songs there to delete them from the playlist and the DB. This calls the delete songs api from the back end, also using a remove parent node on the front end js to remove the element from the page as well. 
 
   Once a playlist or multiple is saved, the user can click on "saved playlists" this will populate the saved playlists in the DB to the page as buttons. Each playlist can be clicked to reveal the songs inside. Those songs are buttons as well, when they are click they are deleted from the DB, but the remove parent node on the front end to remove the button is buggy. Still working on getting those removed from the screen when clicked
+  
+  Usage Demo
+  
+  ![usage-gif](public/assets/images/mistape-usage.gif)
 
+
+
+Here is the route to update a playlist name by grabbing the i.d.
+![update-route](public/assets/images/update-route.png)
+
+the route was tested in postman. The original name was "Pizza Party", and the test was run to change it to "cool party dude!"
+![postman-test](public/assets/images/unnamed.png)
+
+Once the put method was sent. We can see the playlist name was changed in the database.
+![database-change](public/assets/images/update-table.png)
+
+As mentioned before, this still needs implemented on the front end for the user to be able to change the playlist names.
 
   ## Installation
   App runs as is in the browser. No installs or downloads necessary.
@@ -61,5 +77,3 @@
   * Email: laraezegart@gmail.com
   * GitHub Profile: [https://github.com/lzegart]
   * GitHub Username: lzegart
-
-  
