@@ -56,7 +56,7 @@ As mentioned before, this still needs implemented on the front end for the user 
   No tests
   
   ## Deployed app
-  (Mixtape Generation app)[https://mixtape-generation.herokuapp.com/]
+  [Mixtape Generation app](https://mixtape-generation.herokuapp.com/)
 
   ## Contributions
   Group Project by Team Alpha Flight. Contact any group members for further questions regarding the app and its functionality. 
